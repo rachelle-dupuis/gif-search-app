@@ -1,0 +1,47 @@
+body {
+    font-family: "Open Sans Condensed";
+    margin: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+form {
+    margin-bottom: 1rem;
+}
+
+img {
+    padding: .5rem 0 .5rem 0;
+}
+
+input {
+    height: 1.5rem;
+    border: none;
+    border-bottom: solid black;
+}
+
+input:focus{
+    outline: none;
+}
+
+button {
+    background-color: green; 
+    border: solid green;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: white;
+    border: solid green;
+  }
+
+  label, input, button {
+    font-size: inherit;
+    padding: 0.2em;
+    margin: 0.1em 0.2em;
+}
